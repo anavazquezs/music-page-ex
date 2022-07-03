@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Balsamiq+Sans&family=Barlow+Condensed:wght@100&family=Caveat&family=Comfortaa:wght@300&family=Indie+Flower&family=Luxurious+Roman&family=Poiret+One&family=Roboto+Condensed:wght@300;400;700&family=Roboto+Mono:wght@200&family=Roboto:wght@100;300;400&family=Russo+One&display=swap');
+
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Balsamiq Sans', cursive;
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Caveat', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Luxurious Roman', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Russo One', sans-serif;*/
+
+.d-flex {
+    padding-bottom: 10px;
+    background-color: rgb(71, 71, 71);
+}
+
+.logo {
+    border-radius: 5%;
+    width: 60px;
+    height: 50px;
+    background-image: url(../img/Logo.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-text h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgba(174, 173, 175, 0.863);
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 1rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.logo-text p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(158, 157, 157);
+    font-size: 0.8rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.nav-header {
+    border-top: 1px solid rgb(109, 106, 106);
+    border-bottom: 1px solid rgb(109, 106, 106);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgb(14, 13, 13);
+}
+
+.nav-header a {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: rgb(235, 228, 228);
+}
+
+.nav-header a:hover {
+    background-color: rgba(28, 28, 29, 0.144);
+    color: rgb(227, 223, 240);
+}
+
+.carousel-inner {
+    max-height: 500px;
+}
+
+.button {
+    max-width: 50px;
+    min-height: 10px;
+    border-radius: 50%;
+}
+
+.artic h2 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    padding: 25px 0px 0px 10px;
+}
+
+.artic p {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+}
+
+.artic1 {
+    background-color: rgba(187, 185, 185, 0.602);
+}
+
+.artic2 {
+    background-color: bisque;
+}
+
+.artic3 {
+    background-color: black;
+    color: rgb(209, 206, 206);
+}
+
+.artic4 {
+    background-color: rgba(220, 20, 60, 0.5);
+}
+
+.vivo {
+    padding-top: 20px;
+    background-color: rgb(73, 69, 69);
+    color: rgb(222, 223, 224);
+}
+
+.vivo iframe {
+    padding-left: 50px;
+}
+
+.vivo h2 {
+    font-family: 'Balsamiq Sans', cursive;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.vivo p {
+    font-family: 'Balsamiq Sans', cursive;
+    padding-left: 20px;
+}
+
+.musica-section h2 {
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: rgb(215, 219, 223);
+    text-shadow: 1px 1px 3px black;
+}
+
+.musica-section {
+    background-color: #6c757d;
+}
+
+.container {
+    height: 45px;
+}
+
+.input-container input {
+    margin-top: 48px;
+    max-height: 45px;
+}
+
+.input-container button {
+    margin-top: 48px;
+    max-height: 50px;
+    background-color: darkslategrey;
+    border: 1px solid black;
+}
+
+.input-container button:hover {
+    background-color: lightslategrey;
+}
+
+.card h4 {
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+}
+
+.section-tienda h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    text-align: center;
+    font-size: 50px;
+    color: lightgrey;
+}
+
+.section-tienda {
+    background-color: #474747;
+    margin-bottom: 0;
+}
+
+.footer {
+    font-size: 2em;
+    color: rgb(77, 108, 109);
+    text-shadow: 2px 2px 5px black;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #8d98a1;
+}
+
+.footer a:hover {
+    color: rgb(127, 176, 255);
+}
+
+.footer-derechos h4 {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.2em;
+    color: #8d98a1;
+}
+
+.footer-derechos span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
